@@ -1,0 +1,12 @@
+OOP - Object Oriented Programming
+
+1.Class:-
+    -> Class is combination of the data member and member function
+    OR
+    -> Class is the blue print of the Object
+     class class_name{
+
+     };
+
+2.Object
+    -> Object is the instance of the class
