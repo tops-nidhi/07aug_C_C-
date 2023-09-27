@@ -14,11 +14,19 @@ public:
     // {
     //     no++;
     // }
-    Operator operator +(Operator &obj2)
+    Operator operator >(Operator &obj2)
     {
-        Operator obj3;
-        obj3.no = no + obj2.no;
-        return (obj3);
+        // Operator obj3;
+        // obj3.no = no + obj2.no;
+        // return (obj3);
+        if(no > obj2.no)
+        {
+            cout<< no << " is the max.";
+        }
+        else{
+            cout<< obj2.no << " is max.";
+        }
+        return obj2;
     }
     void display()
     {
@@ -33,7 +41,8 @@ int main()
     operate2.get();
     operate2.display();
     // ++operate;
-    operate3 = operate1 + operate2;
-    operate3.display();
+    // operate3 = operate1 + operate2;
+    // operate3.display();
+    operate1 > operate2;
     return 0;
 }
